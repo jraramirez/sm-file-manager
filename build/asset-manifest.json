@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cce8147.chunk.css",
-    "main.js": "/static/js/main.28647029.chunk.js",
-    "main.js.map": "/static/js/main.28647029.chunk.js.map",
+    "main.css": "/static/css/main.579ae534.chunk.css",
+    "main.js": "/static/js/main.19a8813b.chunk.js",
+    "main.js.map": "/static/js/main.19a8813b.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.b41502e9.chunk.js": "/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/static/js/2.b41502e9.chunk.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.cc19db12.chunk.js": "/static/js/2.cc19db12.chunk.js",
+    "static/js/2.cc19db12.chunk.js.map": "/static/js/2.cc19db12.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.054774adbe886ee6e3c29227ef1745b5.js": "/precache-manifest.054774adbe886ee6e3c29227ef1745b5.js",
+    "precache-manifest.4821ae65e53eafaafc1261fe08f06859.js": "/precache-manifest.4821ae65e53eafaafc1261fe08f06859.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.579ae534.chunk.css.map": "/static/css/main.579ae534.chunk.css.map",
+    "static/media/HERO_IMAGE.png": "/static/media/HERO_IMAGE.edc9814b.png",
+    "static/media/Login.module.css": "/static/media/bg.7d0b609c.png",
+    "static/media/carousel.png": "/static/media/carousel.b27dec1e.png",
+    "static/media/groupsthumb.png": "/static/media/groupsthumb.70e1fc2c.png",
+    "static/media/paris.jpg": "/static/media/paris.cec24e47.jpg",
+    "static/media/thumb1.png": "/static/media/thumb1.52b38910.png",
+    "static/media/thumb2.png": "/static/media/thumb2.a58d406a.png",
+    "static/media/thumb3.png": "/static/media/thumb3.99f04c35.png"
   }
 }

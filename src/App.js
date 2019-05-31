@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import classes from './App.module.css';
+
+import Login from './components/Login/Login';
+import Home from './containers/Home/Home';
+import Profile from './containers/Profile/Profile';
+import Messages from './containers/Messages/Messages';
+import Settings from './containers/Settings/Settings';
+
+class App extends Component {
+  render() {
+    return (
+      <Switch>
+        <div className={classes.App}>
+          <Route path="/" exact component={Login} />
+          <Route path="/home" exact component={Home} />
+          <Route path="/profile" exact component={Profile} />
+          <Route path="/messages" exact component={Messages} />
+          <Route path="/settings" exact component={Settings} />
+          <Route path="/settings/login-and-security" exact component={Settings} />
+          <Route path="/settings/site-preferences" exact component={Settings} />
+        </div>
+      </Switch>
+    );
+  }
 }
 
 export default App;
