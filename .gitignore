@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-# production
-/build
+# comment in production, uncommennt in dev
+# /build
 
 # misc
 .DS_Store
@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# comment in dev, uncomment in production
+src/*
+public/*
+build/static/css/*.map
+build/static/js/*.map
