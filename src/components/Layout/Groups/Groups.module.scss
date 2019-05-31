@@ -1,0 +1,35 @@
+.Groups {
+  background-color: #fff;
+  margin-top: 30px;
+  border-bottom: 3px solid #efefef;
+  margin-bottom: 100px;
+
+  .GroupsContent {
+    padding: 20px;
+    h3 {
+      color: #2B2826;
+      font-size: 21px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .GroupsCol {
+      padding-left: 20px;
+      padding-right: 20px;
+      flex: 0 0 20%;
+      max-width: 20%;
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        padding-top: 10px;
+        color: #2B2826;
+        font-size: 12px;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+    }
+  }
+}

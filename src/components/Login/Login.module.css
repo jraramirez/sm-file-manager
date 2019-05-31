@@ -1,0 +1,68 @@
+.LoginBody {
+  background-image: url("../../assets/images/bg.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Login {
+  color: #fff;
+  text-align: center;
+  padding-top: 10%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-top: 1px solid #5D7193;
+  margin-bottom: 25px;
+}
+
+.btnGreen {
+  width: 100%;
+  border: none;
+  background-color: #4BCA81;
+  color: #fff;
+  border-radius: 25px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  font-size: 12px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.pGrey {
+  color: #5D7193;
+  font-size: 12px;
+  padding-top: 25px;
+}
+
+.LoginBody h3 {
+  font-size: 36px;
+}
+
+.LoginBody a {
+  color: #fff;
+}
+
+.LoginBody a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0E2A53;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Footer p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0
+}

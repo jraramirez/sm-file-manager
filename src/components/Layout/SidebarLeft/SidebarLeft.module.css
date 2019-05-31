@@ -1,0 +1,138 @@
+.SidebarWrapper {
+  background: url('../../../assets/images/bg.png');
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  height: 100%;
+  width: 20%;
+  flex: 0 0 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #16325c;
+  overflow-x: hidden;
+  padding-top: 25px;
+}
+
+.SidebarWrapper h1 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+
+.Logo {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #2E476D;
+}
+
+.ProfileImg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ProfileDesc {
+  padding-top: 15px;
+}
+
+.Prof {
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.ProfileDesc p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.SidebarWrapper ul {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.SidebarWrapper li {
+  border-bottom: 1px solid #2E476D;
+  font-size: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.SidebarWrapper li:first-child img {
+  padding-right: 11px;
+}
+
+.SidebarWrapper li:nth-child(2) img {
+  padding-right: 8px;
+}
+
+.SidebarWrapper li:nth-child(3) img {
+  padding-right: 13px;
+}
+
+.SidebarWrapper li:nth-child(4) img {
+  padding-right: 11px;
+}
+
+.SidebarWrapper li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Activities li:first-child {
+  border-top: 1px solid #2E476D;
+  margin-top: 10px;
+}
+
+.Connect {
+  padding-top: 15px;
+}
+
+.Connect p {
+  margin-bottom: 0;
+  color: #6f7d92;
+  font-size: 12px;
+}
+
+.Collaborate {
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+.Collaborate p {
+  margin-bottom: 0;
+  color: #6f7d92;
+  font-size: 12px;
+}
+
+.NotifCount {
+  font-size: 10px;
+  background-color: #EB8500;
+  padding: 1px 5px;
+  position: absolute;
+  right: 20px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.Status {
+  background-color: #4BCA81;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  left: 59px;
+  top: 62px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.ProfLink {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+}

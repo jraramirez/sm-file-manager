@@ -1,0 +1,23 @@
+.Profile {
+  background-color: #F0F5FB;
+}
+
+.Row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ColLeft {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.ColMain {
+  flex: 0 0 55%;
+  max-width: 55%;
+}
+
+.ColRight {
+  flex: 0 0 25%;
+  max-width: 25%;
+}

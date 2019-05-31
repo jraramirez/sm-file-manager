@@ -1,0 +1,87 @@
+.CoverWrapper {
+  height: 300px;
+  background-size: cover;
+
+  .Content {
+    background: inherit;
+    width: 100%; /* =cw */
+    height: 45%; /* =ch */
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 78%; /* =ct */
+    left: 50%; /* =cl */
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    .CoverInfo {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+      height: 100%;
+      box-sizing: border-box; /* so that padding is included in height */
+
+      .Prof {
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        margin-right: 20px;
+      }
+
+      .NamePos {
+        display: inline-block;
+        color: #fff;
+
+        h4 {
+          font-weight: 600;
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+
+        p {
+          font-size: 12px;
+          margin-bottom: 0;
+        }
+      }
+
+      .btnGreen {
+        background-color: #4BCA81;
+        color: #fff;
+        font-size: 12px;
+        border: transparent;
+        font-weight: 600;
+        padding: 4px 25px;
+        border-radius: 25px;
+        top: 35px;
+        float: right;
+        position: relative;
+      }
+    }
+
+    .Blur {
+      background: inherit;
+      height: 300px; /* h */
+      width: 100%; /* (100/cw) x 100% */
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(0%, -55%); /* - [cl - (cw/2)] % ,  -[ct - (ch/2)] % */
+      filter: blur(2px);
+      z-index: -1;
+    }
+  }
+
+  // .CoverInfo:before {
+  //   content: "";
+  //   background: inherit;
+  //   position: absolute;
+  //   box-shadow: inset 0 0 2000px rgba(43, 40, 38, .4);
+  //   filter: blur(2px);
+  //   width: 100%;
+  //   height: 100%;
+  //   z-index: -1;
+  // }
+}

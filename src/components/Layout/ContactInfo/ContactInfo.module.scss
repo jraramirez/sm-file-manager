@@ -1,0 +1,26 @@
+.ContactInfo {
+  background-color: #fff;
+  margin-top: 30px;
+  border-bottom: 3px solid #efefef;
+
+  .ContactContent {
+    padding: 20px 20px 0 20px;
+    h3 {
+      color: #2B2826;
+      font-size: 21px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #706E6B;
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+
+    .BlackInfo {
+      color: #2B2826;
+      margin-bottom: 20px;
+    }
+  }
+}
