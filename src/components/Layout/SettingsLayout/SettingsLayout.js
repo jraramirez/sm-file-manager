@@ -1,18 +1,18 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import classes from './SettingsLayout.module.scss';
 
-import msgIcon from '../../../assets/images/icons/msg.png';
+import editIcon from '../../../assets/images/icons/ic_edit_24px.png';
 
 const SettingsLayout = (props) => (
   <div className={classes.SettingsLayout}>
     <Row>
       <Col className={classes.SettingsNav} md={2}>
         <ul className={classes.SettingsNavItems}>
-          <li className={classes.SettingsNavLink}><Link to="/settings/login-and-security">Login and security</Link></li>
-          <li className={classes.SettingsNavLink}><Link to="/settings/site-preferences">Site preferences</Link></li>
+          <li className={classes.SettingsNavLink}><NavLink to="/settings/login-and-security" activeClassName="ActiveLink">Login and security</NavLink></li>
+          <li className={classes.SettingsNavLink}><NavLink to="/settings/site-preferences">Site preferences</NavLink></li>
         </ul>
       </Col>
       <Col className={classes.SettingsExpanded} md={10}>
@@ -27,16 +27,42 @@ const SettingsLayout = (props) => (
             <div className={classes.SettingsOptionDescription}>
               Edit or remove email address on your account
             </div>
-            <img src={msgIcon} alt="Messaging" />
+            <a href="#">
+              <img src={editIcon} alt="Edit" />
+            </a>
           </div>
           <div className={classes.SettingsOption}>
             <div className={classes.SettingsOptionName}>
-              Email Address
+              Phone number
             </div>  
             <div className={classes.SettingsOptionDescription}>
-              Edit or remove email address on your account
+              Add a Phone number in case you have trouble signing in
             </div>
-            <img src={msgIcon} alt="Messaging" />
+            <a href="#">
+              <img src={editIcon} alt="Edit" />
+            </a>
+          </div>
+          <div className={classes.SettingsOption}>
+            <div className={classes.SettingsOptionName}>
+              Change password
+            </div>  
+            <div className={classes.SettingsOptionDescription}>
+              Choose unique password to protect your account
+            </div>
+            <a href="#">
+              <img src={editIcon} alt="Edit" />
+            </a>
+          </div>
+          <div className={classes.SettingsOption}>
+            <div className={classes.SettingsOptionName}>
+              Where you're signed in
+            </div>  
+            <div className={classes.SettingsOptionDescription}>
+              See your active sessions, and isgn out if you'd like
+            </div>
+            <a href="#">
+              <img src={editIcon} alt="Edit" />
+            </a>
           </div>
         </div>
         <div className={classes.SettingsSection}>
@@ -50,7 +76,9 @@ const SettingsLayout = (props) => (
             <div className={classes.SettingsOptionDescription}>
               Make your feed your own
             </div>
-            <img src={msgIcon} alt="Messaging" />
+            <a href="#">
+              <img src={editIcon} alt="Edit" />
+            </a>
           </div>
         </div>
       </Col>
