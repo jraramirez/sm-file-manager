@@ -9,11 +9,15 @@ import classes from './DocumentRepositoryLayout.module.scss';
 
 const DocumentRepositoryLayout = (props) => (
   <div className={classes.DocumentRepositoryLayout}>
-    <div className={classes.Actions}>
-      <button className={classes.NewAction}>
-        New &nbsp; <img className={classes.ExpandButton} src={downArrowIcon} alt="Expand"/>
-      </button>
-    </div>
+    <Row>
+      <Col md={12}>
+      <div className={classes.Actions}>
+        <button className={classes.NewAction}>
+          New &nbsp; <img className={classes.ExpandButton} src={downArrowIcon} alt="Expand"/>
+        </button>
+      </div>
+      </Col>
+    </Row>
     <Row>
       <Col md={12}>
         <div className={classes.Folder}>
