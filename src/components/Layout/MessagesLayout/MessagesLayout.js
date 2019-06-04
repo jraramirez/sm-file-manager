@@ -2,8 +2,10 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 import imgStaff from '../../../assets/images/paris.jpg';
-import msgIcon from '../../../assets/images/icons/msg.png';
-
+import searchIcon from '../../../assets/images/icons/Group 242.png';
+import editIcon from '../../../assets/images/icons/edit.png';
+import controlsIcon from '../../../assets/images/icons/Image 54.png';
+import downArrowIcon from '../../../assets/images/icons/Down arrow small.png';
 import classes from './MessagesLayout.module.scss';
 
 const MessagesLayout = (props) => (
@@ -12,12 +14,12 @@ const MessagesLayout = (props) => (
       <Col className={classes.Conversations} md={3}>
         <div className={classes.ConversationsHeader}>
           Messaging
-          <img src={msgIcon} alt="Messaging" />
+          <img src={editIcon} alt="Messaging" />
         </div>
         <div className={classes.ConversationsSearch}>
-          <img src={msgIcon} alt="Search Messages" />
-          <form>
-            <input className={classes.SearchMessages} type="text" name="SearchMessages" placeholder="Search Messages" />
+          <img src={searchIcon} alt="Search Messages" />
+          <form className={classes.SearchMessages} >
+            <input type="text" name="SearchMessages" placeholder="Search Messages" />
           </form>
         </div>
         <div className={classes.ConversationsList}>
@@ -85,12 +87,9 @@ const MessagesLayout = (props) => (
           <form>
             <input className={classes.ComposeMessage} type="text" name="SearchMessages" placeholder="Write a message or attach a file" />
           </form>
-          <img className={classes.ExpandButton} src={msgIcon} alt="Expand"/>
+          <img className={classes.ExpandButton} src={downArrowIcon} alt="Expand"/>
           <div className={classes.ConversationExpandedControls}>
-            <img src={msgIcon} alt="Image" />
-            <img src={msgIcon} alt="Attach" />
-            <img src={msgIcon} alt="GIF" />
-            <img src={msgIcon} alt="Smiley" />
+            <img src={controlsIcon} alt="Image" />
             <button className={classes.SendButton}>Send</button>
           </div>
         </div>

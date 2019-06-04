@@ -13,7 +13,7 @@ const navigations = (props) => (
           <li><NavLink className={classes.Navfirstli} activeClassName="ActiveLink" to="/home">Home<div className="NavAct"></div></NavLink></li>
           <li><NavLink to="/">Company<div className="NavAct"></div></NavLink></li>
           <li><NavLink to="/">News<div className="NavAct"></div></NavLink></li>
-          <li><NavLink to="/">Document Repository<div className="NavAct"></div></NavLink></li>
+          <li><NavLink to="/document-repository">Document Repository<div className="NavAct"></div></NavLink></li>
         </ul>
       </Col>
       <Col md={5} className={classes.SearchCol}>

@@ -1,0 +1,69 @@
+.DocumentRepositoryLayout{
+  font-size: 12px;
+  .Actions{
+    .NewAction{
+      font-weight: 600;
+      background-color: transparent;
+      border-radius: 25px;
+      padding: 3px 10px;
+      margin-left: auto;
+      border: 1px solid #706E6B;
+      float: right;
+    }
+  }
+  .Folder{
+    background-color: #fff;
+    margin: 15px 0px;
+    padding: 15px;
+    padding-bottom: 100px;
+    .FolderHeader{
+      border-bottom: 2px solid #E4E9EF;
+      margin: 0px -15px;
+      .FolderName{
+        color: #16325C;
+        margin-left: 15px;
+        font-size: 16px;
+      }
+    }
+    .SubFolder{
+      border-bottom: 2px solid #E4E9EF;
+      padding: 15px 0px;
+      .FolderIcon{
+
+      }
+      .SubFolderName{
+        font-size: 12px;
+      }
+      .SubFolderDetails{
+        font-size: 8px;
+        .SubFolderUpdate{
+          color: #FF9A3C
+        }
+        .SubFolderSize{
+          color: #706E6B;
+        }
+      }
+      .SubFolderOptions{
+        img{
+          position: relative;
+          float: right;
+          bottom: 30px;
+        }
+      }
+    }
+    .FolderShowMore{
+      margin-top: 15px;
+      position: relative;
+      float: right;
+      .btnGreen{
+        color: #fff;
+        background-color: #4BCA81;
+        border-radius: 25px;
+        padding: 5px 30px;
+        margin-left: auto;
+        border: transparent;
+        margin-top: 20px;
+      }
+    }
+  }
+}

@@ -29,7 +29,10 @@
       padding: 15px;
       margin-right: -15px;
       .SearchMessages{
-
+        padding-left: 15px;
+        input{
+          width: 95%;
+        }
       }
     }
     .ConversationsList{
