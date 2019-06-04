@@ -3,7 +3,6 @@ import { Row, Col } from 'react-bootstrap';
 
 import classes from './ContactInfo.module.scss';
 
-
 const contactInfo = (props) => (
   <div className={classes.ContactInfo}>
     <Row>
@@ -11,13 +10,13 @@ const contactInfo = (props) => (
         <div className={classes.ContactContent}>
           <h3>Contact Info</h3>
           <p>Contact number</p>
-          <p className={classes.BlackInfo}>+80 1234 567 8901</p>
+          <p className={classes.BlackInfo}>{props.cntNumber}</p>
 
           <p>Email address</p>
-          <p className={classes.BlackInfo}>elizabeth@email.com</p>
+          <p className={classes.BlackInfo}>{props.email}</p>
 
           <p>Office address</p>
-          <p className={classes.BlackInfo}>San Francisco Bay Area</p>
+          <p className={classes.BlackInfo}>{props.offAdd}</p>
         </div>
       </Col>
     </Row>

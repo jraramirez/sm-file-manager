@@ -32,7 +32,7 @@ const sidebarLeft = (props) => (
 
       <div className={classes.ProfileDesc}>
         <p>Good morning</p>
-        <p>Elizabet!</p>
+        <p>{props.firstName}!</p>
       </div>
     </div>
 

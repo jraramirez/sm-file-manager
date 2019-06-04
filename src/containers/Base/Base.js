@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-import SidebarLeft from '../SidebarLeft/SidebarLeft';
-import SidebarRight from '../SidebarRight/SidebarRight';
-import Navigations from '../Navigations/Navigations';
+import SidebarLeft from '../../components/Layout/SidebarLeft/SidebarLeft';
+import SidebarRight from '../../components/Layout/SidebarRight/SidebarRight';
+import Navigations from '../../components/Layout/Navigations/Navigations';
 
 import classes from './Base.module.css'
 
@@ -11,7 +11,8 @@ const base = (props) => (
   <div className={classes.Base}>
     <Row className={classes.Row}>
       <Col className={classes.ColLeft} md={2}>
-        <SidebarLeft />
+        <SidebarLeft
+          firstName={props.firstName} />
       </Col>
       <Col md={8} className={classes.ColMain}>
       <Navigations />
