@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Base from '../../components/Layout/Base/Base';
+import Base from '../Base/Base';
 import DocumentRepositoryLayout from '../../components/Layout/DocumentRepositoryLayout/DocumentRepositoryLayout';
 
 class DocumentRepository extends Component {
