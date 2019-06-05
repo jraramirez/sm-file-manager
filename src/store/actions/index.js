@@ -1,1 +1,4 @@
-import fetchNews from './latestNews';
+export {
+  modalShow,
+  modalClose
+} from './profileNews';

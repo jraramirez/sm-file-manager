@@ -1,5 +1,4 @@
 .SidebarWrapper {
-  background: url('../../../assets/images/bg.png');
   background-repeat: no-repeat;
   background-position-y: 0;
   height: 100%;
@@ -9,7 +8,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #16325c;
+  background-color: #151b25;
   overflow-x: hidden;
   padding-top: 25px;
 }
@@ -22,7 +21,7 @@
 
 .Logo {
   padding-bottom: 12px;
-  border-bottom: 1px solid #2E476D;
+  border-bottom: 1px solid #363a40;
 }
 
 .ProfileImg {
@@ -57,18 +56,18 @@
 }
 
 .SidebarWrapper li {
-  border-bottom: 1px solid #2E476D;
+  border-bottom: 1px solid #363a40;
   font-size: 13px;
   padding-top: 8px;
   padding-bottom: 8px;
 }
 
 .SidebarWrapper li:first-child img {
-  padding-right: 11px;
+  padding-right: 17px;
 }
 
 .SidebarWrapper li:nth-child(2) img {
-  padding-right: 8px;
+  padding-right: 18px;
 }
 
 .SidebarWrapper li:nth-child(3) img {
@@ -85,7 +84,7 @@
 }
 
 .Activities li:first-child {
-  border-top: 1px solid #2E476D;
+  border-top: 1px solid #363a40;
   margin-top: 10px;
 }
 
@@ -95,7 +94,7 @@
 
 .Connect p {
   margin-bottom: 0;
-  color: #6f7d92;
+  color: #7a828e;
   font-size: 12px;
 }
 

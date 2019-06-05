@@ -9,11 +9,27 @@ import Groups from '../../components/Layout/Groups/Groups';
 import classes from './Profile.module.css';
 
 class Profile extends Component {
-  state = {
-    firstName: 'Elizabet',
-    cntNumber: '+80 1234 567 8901',
-    email: 'elizabeth@email.com',
-    offAdd: 'San Francisco Bay Area'
+  constructor(props, context) {
+    super(props, context);
+
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+
+    this.state = {
+      firstName: 'Elizabet',
+      show: false,
+      cntNumber: '+80 1234 567 8901',
+      email: 'elizabeth@email.com',
+      offAdd: 'San Francisco Bay Area'
+    };
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
   }
 
   render () {
@@ -21,7 +37,10 @@ class Profile extends Component {
       <div className={classes.Home}>
         <Base
           firstName={this.state.firstName} >
-          <ProfileCover />
+          <ProfileCover
+            clickedClose={this.handleClose}
+            clickedShow={this.handleShow}
+            showStat={this.state.show}/>
           <Biography />
           <ContactInfo
             cntNumber={this.state.cntNumber}

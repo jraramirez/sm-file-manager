@@ -8,9 +8,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import latestNews from './store/reducer/latestNews';
+import profileCover from './store/reducer/profileCover';
 
-const store = createStore(latestNews);
+const store = createStore(profileCover);
 
 const app = (
   <Provider store={store}>

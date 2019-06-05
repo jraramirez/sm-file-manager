@@ -85,3 +85,111 @@
   //   z-index: -1;
   // }
 }
+
+.ModalBox {
+  .Title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .ModalBody {
+    padding: 0;
+    margin: -3px -3px 0px -3px;
+    .ModalCoverWrapper {
+      height: 410px;
+    }
+
+    .ProfWrapper {
+      width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .Prof {
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: inline-block;
+        position: relative;
+        top: -50px;
+      }
+    }
+
+    .ModalForm {
+      margin-top: -30px;
+      padding: 0 20px 20px 20px;
+
+      p {
+        font-size: 12px;
+        color: #706E6B;
+        margin-bottom: 0;
+        margin-top: 15px;
+      }
+
+      .LabelBio {
+        margin-bottom: 10px;
+      }
+
+      .SelectMod {
+        margin-top: 35px;
+        border: none;
+        background: none;
+      }
+
+      .btnAddPos {
+        font-size: 12px;
+        font-weight: 600;
+        color: #4BCA81;
+        margin-top: 20px;
+        float: right;
+        border: none;
+        background: none;
+      }
+
+      .cntRow {
+        margin-top: 50px;
+      }
+
+      input {
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid #706E6B;
+      }
+
+      textarea {
+        width: 100%;
+        height: 200px;
+      }
+
+      .ProfModFooter {
+        margin-left: -17px;
+        margin-right: -17px;
+        border-top: 1px solid #dee2e6;
+        padding: 15px 15px 5px;
+        margin-top: 50px;
+
+        .BtnWrapper {
+          float: right;
+          margin-bottom: 15px;
+
+          .CancelMod {
+            font-size: 12px;
+            font-weight: 600;
+            color: #2B2826;
+            border: none;
+            background: none;
+          }
+
+          .UpdateMod {
+            font-size: 12px;
+            font-weight: 600;
+            color: #4BCA81;
+            border: none;
+            background: none;
+          }
+        }
+      }
+    }
+  }
+}

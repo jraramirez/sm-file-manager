@@ -10,7 +10,8 @@ import classes from './Home.module.css';
 
 class Home extends Component {
   state = {
-    firstName: 'Elizabet'
+    firstName: 'Elizabet',
+    show: false
   }
 
   render () {

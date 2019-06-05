@@ -39,25 +39,16 @@ const sidebarLeft = (props) => (
     <div className={classes.Navigations}>
       <ul className={classes.Activities}>
         <li><Link to="/"><img src={bellIcon} alt="Notifications" />Notifications</Link><span className={classes.NotifCount}>9</span></li>
-        <li><Link to="/messages"><img src={msgIcon} alt="Messages" />Messages</Link><span className={classes.NotifCount}>12</span></li>
-        <li><Link to="/"><img src={avatarIcon} alt="View profile" />View profile</Link></li>
+        <li><Link to="/profile"><img src={avatarIcon} alt="View profile" />View profile</Link></li>
         <li><Link to="/settings"><img src={settingsIcon} alt="Settings" />Settings</Link></li>
       </ul>
 
       <ul className={classes.Connect}>
-        <li><p>CONNECT</p></li>
-        <li><Link to="/">Lorem ipsum</Link></li>
-        <li><Link to="/">Lorem ipsum</Link></li>
-        <li><Link to="/">Lorem ipsum</Link></li>
-        <li><Link to="/">Lorem ipsum</Link></li>
-      </ul>
-
-      <ul className={classes.Collaborate}>
-        <li><p>COLLABORATE</p></li>
-        <li><Link to="/">Lorem ipsum</Link></li>
-        <li><Link to="/">Lorem ipsum</Link></li>
-        <li><Link to="/">Lorem ipsum</Link></li>
-        <li><Link to="/">Lorem ipsum</Link></li>
+        <li><p>QUICK LINKS</p></li>
+        <li><Link to="/">Zaluvida</Link></li>
+        <li><Link to="/">Mootral</Link></li>
+        <li><Link to="/">InQpharm</Link></li>
+        <li><Link to="/">Neem Biotech</Link></li>
       </ul>
     </div>
   </div>
