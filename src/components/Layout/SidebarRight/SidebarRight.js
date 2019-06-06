@@ -58,14 +58,6 @@ const sidebarRight = (props) => (
           <Link to="/"><img src={imgStaff} alt="Staff" /></Link>
         </div>
       </div>
-
-      <div className={classes.Employees}>
-        <img src={imgStaff} alt="Staff" />
-        <img src={imgStaff} alt="Staff" />
-        <img src={imgStaff} alt="Staff" />
-        <span className={classes.EmpCount}>+84</span>
-        <button className={classes.BtnGreen}>More employees</button>
-      </div>
     </div>
   </div>
 );

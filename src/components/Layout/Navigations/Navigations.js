@@ -11,7 +11,6 @@ const navigations = (props) => (
       <Col md={7} className={classes.NavCol}>
         <ul className={classes.NavigationItems}>
           <li><NavLink className={classes.Navfirstli} activeClassName="ActiveLink" to="/home">Home<div className="NavAct"></div></NavLink></li>
-          <li><NavLink to="/">Company<div className="NavAct"></div></NavLink></li>
           <li><NavLink to="/">News<div className="NavAct"></div></NavLink></li>
           <li><NavLink to="/document-repository">Document Repository<div className="NavAct"></div></NavLink></li>
         </ul>

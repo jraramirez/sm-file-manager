@@ -15,9 +15,6 @@ const login = ( props ) => (
 
       <p className={classes.pGrey}>Please use your work email address so we can connect you with your team in TheMatrix.</p>
     </div>
-    <div className={classes.Footer}>
-      <p>The<strong>Matrix</strong></p>
-    </div>
   </div>
 );
 
