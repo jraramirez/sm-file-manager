@@ -3,16 +3,16 @@ import { Row, Col } from 'react-bootstrap';
 
 import classes from '../../SettingsLayout/SettingsLayout.module.scss';
 
-const EmailAddress = (props) => (
+const Password = (props) => (
   <div className={classes.SettingsEdit}>
     <Row>
       <Col md={6}>
         <div className={classes.SettingsInstruction}>
-          Change your email address
+          Change your password
         </div>
         <div className={classes.SettingsForm}>
           <form>
-            <input type="text" name="EmailAddress" />
+            <input type="password" name="Password" />
           </form>
         </div>
         <div className={classes.SettingsButtons}>
@@ -24,4 +24,4 @@ const EmailAddress = (props) => (
   </div>
 );
 
-export default EmailAddress;
+export default Password;

@@ -3,55 +3,70 @@
   border-bottom: 2px solid #E4E9EF;
   margin-bottom: 100px;
   padding-bottom: 100px;
+  padding-left: 20px;
   font-size: 12px;
-  .SettingsNav{
-    .SettingsNavItems{
-      list-style-type: none;
-      padding-inline-start: 0px;
-      padding: 15px;
-      padding-top: 30px;
-      .SettingsNavLink{
-        padding-bottom: 15px;
-        font-weight: 600;
-        .ActiveLink {
-          color: #4BCA81;
-        }
-        a{
-          color: #2B2826;
-        }
-        a:hover{
-          color: #2B2826;
-          text-decoration: none;
-        }
-      }
-    }
-    
-  }
 
-  .SettingsExpanded{
-    .SettingsSection{
-      padding-top: 30px;
-      .SettingsHeader{
-        color:#706E6B;
+  .SettingsSection{
+    padding-top: 30px;
+    .SettingsHeader{
+      color:#706E6B;
+    }
+    .SettingsOption{
+      padding: 15px 0px;
+      border-bottom: 2px solid #f0f5fb;
+      margin-right: 15px;
+      .SettingsOptionName{
+        font-weight: 600;
       }
-      .SettingsOption{
-        padding: 15px 0px;
-        border-bottom: 2px solid #f0f5fb;
-        margin-right: 15px;
-        .SettingsOptionName{
-          font-weight: 600;
-        }
-        .SettingsOptionDescription{
+      .SettingsOptionDescription{
+        color:#706E6B;
+        padding: 10px 0px;
+      }
+      img{
+        position: relative;
+        float: right;
+        bottom: 30px;
+        right: 30px;
+      }
+      img:hover{
+        cursor:pointer;
+      }
+      .SettingsEdit{
+        padding-left: 30px;
+        .SettingsInstruction{
           color:#706E6B;
+          padding-bottom: 10px;
         }
-        img{
-          position: relative;
-          float: right;
-          bottom: 30px;
-          right: 30px;
+        form{
+          display: inline;
+          input{
+            width: 100%;
+            padding: 15px;
+            height: 35px;
+            border: solid 1px #E4E9EF;
+          }
+        }
+        .SettingsButtons{
+          padding-top: 15px;
+          .CancelButton{
+            padding: 5px 30px;
+            border: none;
+            background-color: transparent;
+            border-radius: 25px;
+            font-weight: 600;
+            float: right;
+          }
+          .SendButton{
+            padding: 5px 30px;
+            border: none;
+            background-color: #4BCA81;
+            color: #fff;
+            border-radius: 25px;
+            font-weight: 600;
+            float: right;
+          }
         }
       }
     }
-    
   }
 }
