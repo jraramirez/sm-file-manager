@@ -6,6 +6,7 @@ import classes from './App.module.css';
 
 import Login from './components/Login/Login';
 import Home from './containers/Home/Home';
+import News from './containers/News/News';
 import DocumentRepository from './containers/DocumentRepository/DocumentRepository';
 import Profile from './containers/Profile/Profile';
 import Messages from './containers/Messages/Messages';
@@ -18,6 +19,7 @@ class App extends Component {
         <div className={classes.App}>
           <Route path="/" exact component={Login} />
           <Route path="/home" exact component={Home} />
+          <Route path="/news" exact component={News} />
           <Route path="/document-repository" exact component={DocumentRepository} />
           <Route path="/profile" exact component={Profile} />
           <Route path="/messages" exact component={Messages} />
