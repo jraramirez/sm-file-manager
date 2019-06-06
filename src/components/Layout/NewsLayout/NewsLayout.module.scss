@@ -48,8 +48,16 @@
       margin-left: auto;
       border: transparent;
       font-size: 12px;
-      position: relative;
+      float: right;
       margin-top: 20px;
+    }
+    .Pagination{
+      text-align: center;
+      letter-spacing: 5px;
+      color: #706E6B;
+      .ActivePage{
+        color: #4BCA81;
+      }
     }
   }
 }
