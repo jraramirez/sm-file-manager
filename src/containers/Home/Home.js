@@ -19,7 +19,6 @@ class Home extends Component {
       <div className={classes.Home}>
         <Base
           firstName={this.state.firstName}>
-          <UploadBar />
           <Carousel />
           <LatestNews />
           <LatestFiles />
