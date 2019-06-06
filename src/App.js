@@ -24,8 +24,6 @@ class App extends Component {
           <Route path="/profile" exact component={Profile} />
           <Route path="/messages" exact component={Messages} />
           <Route path="/settings" exact component={Settings} />
-          <Route path="/settings/login-and-security" exact component={Settings} />
-          <Route path="/settings/site-preferences" exact component={Settings} />
         </div>
       </Switch>
     );
