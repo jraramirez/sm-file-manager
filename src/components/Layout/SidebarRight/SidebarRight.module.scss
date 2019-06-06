@@ -72,19 +72,46 @@
   text-decoration: none;
 }
 
-.OurStaff img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-top: 10px;
-  margin-right: 13px;
+.OurStaff {
+  margin-bottom: 70px;
+  h3 {
+    margin-bottom: 15px;
+  }
+
+  .StaffImg {
+    .RowStaff {
+      margin: 0 0 10px 0;
+
+      .ColStaff {
+        padding: 0;
+
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
 }
 
-.StaffImg {
-  margin-right: -13px;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #E4E9EF;
+.OurApps {
+  img {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+
+  p {
+    color: #706E6B;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+  }
 }
 
 .Employees img {

@@ -2,8 +2,9 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import iconFile from '../../../assets/images/icons/file.png';
-import iconFolder from '../../../assets/images/icons/folder.png';
+import jpgImg from '../../../assets/images/JPG-lg.png';
+import pdfImg from '../../../assets/images/PDF-lg.png';
+import pptImg from '../../../assets/images/PPT-lg.png';
 
 import classes from './LatestFiles.module.css';
 
@@ -16,7 +17,7 @@ const latestFiles = (props) => (
       <Link className={classes.ThumbLink} to="/">
         <Col className={classes.ImgThumb} md={3}>
           <div>
-            <img alt="thumb1" src={iconFolder} />
+            <img alt="ppt" src={pptImg} />
           </div>
         </Col>
         <Col md={9}>
@@ -31,7 +32,7 @@ const latestFiles = (props) => (
       <Link className={classes.ThumbLink} to="/">
         <Col className={classes.ImgThumb} md={3}>
           <div>
-            <img alt="thumb2" src={iconFile} />
+            <img alt="jpg" src={jpgImg} />
           </div>
         </Col>
         <Col md={9}>
@@ -46,7 +47,7 @@ const latestFiles = (props) => (
       <Link className={classes.ThumbLink} to="/">
         <Col className={classes.ImgThumb} md={3}>
           <div>
-            <img alt="thumb3" src={iconFolder} />
+            <img alt="pdf" src={pdfImg} />
           </div>
         </Col>
         <Col md={9}>
